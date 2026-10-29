@@ -39,6 +39,12 @@
              --accent: #A99B8B;
              --olive: #77766A;
              --border: rgba(229, 221, 210, 0.18);
+            
+            --font-heading: 'Italiana', Georgia, serif;
+            --font-body: 'DM Sans', Arial, sans-serif;
+
+            --page-padding: clamp(20px, 5.5vw, 90px);
+            --section-gap: clamp(70px, 10vw, 150px);
         }
 
         * {
@@ -53,8 +59,8 @@
         }
 
         body {
-            background: var(--cream);
-            color: var(--black);
+            background: var(--bg);
+            color: var(--text);
             font-family: var(--font-body);
             font-weight: 300;
             overflow-x: hidden;
